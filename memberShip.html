@@ -1,17 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="share.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="share.css" />
+    <link rel="stylesheet" href="memberShip.css" />
     <title>SignUp</title>
-</head>
-<body>
-  <nav>
-    <a href="index.html" class="signin-link">로그인 페이지</a>
-    <a href="memberShip.html" class="signup-link">회원가입</a>
-  </nav>
-  <main></main>
-</body>
+  </head>
+  <body>
+    <nav>
+      <a href="index.html" class="signin-link">로그인 페이지</a>
+      <a href="memberShip.html" class="signup-link">회원가입</a>
+    </nav>
+    <main>
+      <div class="title">BCSD</div>
+      <section>
+        <div class="id">
+          <input type="text" placeholder="  아이디"/>
+        </div>
+        <div class="pw">
+          <input type="password" placeholder="  비밀번호"/>
+        </div>
+        <div class="pw-check">
+          <input type="password" placeholder="  비밀번호 재확인"/>
+        </div>
+      </section>
+      <section>
+        <div class="student-number">
+          <input type="text" placeholder="  학번"/>
+        </div>
+        <div class="major">전공</div>
+        <input type="tel" class="phone-number" placeholder="  휴대전화번호"/>
+      </section>
+      <section>
+        <div>
+          <button class="signup" type="button">가입하기</button>
+        </div>
+        <div>
+          <button class="cancel" type="button">취소</button>
+        </div>
+      </section>
+    </main>
+  </body>
 </html>

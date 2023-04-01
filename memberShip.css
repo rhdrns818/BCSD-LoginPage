@@ -1,0 +1,27 @@
+main {
+	margin-top: 4rem;
+  display: grid;
+	justify-items: center;
+}
+
+.id,
+.pw {
+	margin-bottom: 1px;
+}
+
+.pw-check {
+	margin-bottom: 20px;
+}
+
+.phone-number {
+	margin-bottom: 40px;
+}
+
+.cancel {
+	margin-top: 5px;
+	background-color: rgb(139, 139, 139);
+}
+
+.cancel:hover {
+	background-color: rgb(95, 95, 95);
+}
