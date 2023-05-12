@@ -44,7 +44,7 @@ studentNumberInput.addEventListener("blur", function () {
   }
 });
 
-// 학번 입력시 전공이 무엇인지 표시
+// 학번 입력 시 전공이 무엇인지 표시
 
 const deptData = [
   {
